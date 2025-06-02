@@ -5,20 +5,20 @@ This repository hosts the codebase for a simple Rock-Scissors-Paper game develop
 
 ---
 
-## 🗂️ Table of Contents
+## Table of Contents
 
-- [✨ Features](#-features)
-- [🗂️ Repository Structure](#️-repository-structure)
-- [⚙️ Installation](#️-installation)
-- [🎯 Usage](#-usage)
-- [📄 License](#-license)
-- [🤝 Contributing](#-contributing)
-- [🧠 Acknowledgements](#-acknowledgements)
-- [⭐ Future Enhancements](#-future-enhancements)
+- [Features](#-features)
+- [Repository Structure](#️-repository-structure)
+- [Installation](#️-installation)
+- [Usage](#-usage)
+- [License](#-license)
+- [Contributing](#-contributing)
+- [Acknowledgements](#-acknowledgements)
+- [Future Enhancements](#-future-enhancements)
 
 ---
 
-## ✨ Features
+## Features
 
 - **Hand Gesture Recognition:** Implements OpenCV, potentially in conjunction with the MediaPipe library, to perform real-time detection and classification of hand gestures corresponding to Rock, Scissors, and Paper from a webcam stream.
 - **Automated Opponent:** Enables gameplay against a virtual opponent (computer) employing a pseudo-random selection mechanism.
@@ -28,7 +28,7 @@ This repository hosts the codebase for a simple Rock-Scissors-Paper game develop
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 ```
 ├── GoogleColabProject_RockScissorsPaper_Game.ipynb # Jupyter Notebook containing the primary game logic.
 ├── hand_detect_lib.py                           # Potentially houses custom functions for hand detection tasks.
@@ -42,7 +42,7 @@ This repository hosts the codebase for a simple Rock-Scissors-Paper game develop
 ```
 ---
 
-## ⚙️ Installation
+## Installation
 
 1.  **Clone the repository:**
     ```bash
@@ -69,7 +69,7 @@ This repository hosts the codebase for a simple Rock-Scissors-Paper game develop
     pip install jupyterlab
     ```
 ---
-## 🎯 Usage
+## Usage
 1.  **Execute the Game:**
     - If using Jupyter Notebook, open the `GoogleColabProject_RockScissorsPaper_Game.ipynb` file and execute the code cells sequentially.
     - If the project is developed as a standalone Python script (`.py`), run it from the terminal:
@@ -83,11 +83,11 @@ This repository hosts the codebase for a simple Rock-Scissors-Paper game develop
     - The outcome of each round will be displayed on the interface.
 
 ---
-## 📄 License
+## License
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
 ---
-## 🤝 Contributing
+## Contributing
 Contributions to enhance this project are welcome! Feel free to:
 
 - Submit pull requests for implemented features or bug fixes.
@@ -95,14 +95,14 @@ Contributions to enhance this project are welcome! Feel free to:
 - Propose new features or improvements.
 Contact for work: **Nguyễn Công Phát** – congphatnguyen.work@gmail.com
 ---
-## 🧠 Acknowledgements
+## Acknowledgements
 - **OpenCV:** For providing a robust library for computer vision and image processing tasks in Python.
 - **MediaPipe:** (If utilized) For offering a framework for constructing multimodal applied machine learning pipelines.
 - **Python:** The versatile and accessible programming language employed for this project.
 - **GitHub:** The platform hosting this open-source project for collaborative development.
 
 ---
-## ⭐ Future Enhancements
+## Future Enhancements
 - **Improved Gesture Recognition Accuracy:** Fine-tuning parameters and algorithms to enhance the robustness and accuracy of hand gesture recognition across varying lighting conditions and backgrounds.
 - **Multiplayer Mode:** Development of a two-player mode (if feasible) or exploration of alternative game variations.
 - **Enhanced User Interface:** Integration of more sophisticated GUI libraries (e.g., Tkinter, PyQt) for a more interactive and visually appealing user experience.
